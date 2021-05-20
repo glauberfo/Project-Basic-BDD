@@ -1,0 +1,54 @@
+[
+	{
+		"cep": "59122-2225",
+		"bairro": "Redinha",
+		"uf":"RN"
+	},
+	{
+		"cep": "59123-029",
+		"bairro": "Pajuçara",
+		"uf":"RN"
+	},
+	{
+		"cep": "59010-322",
+		"bairro": "Rocas",
+		"uf":"RN"
+	},
+	{
+		"cep": "59115-046",
+		"bairro": "Nossa Senhora da Apresentação",
+		"uf":"RN"
+	},
+	{
+		"cep": "59123-027",
+		"bairro": "Pajuçara",
+		"uf":"RN"
+	},
+	{
+		"cep": "08090-284",
+		"bairro": "Jardim Helena",
+		"uf":"SP"
+	},
+	{
+		"cep": "04849-529",
+		"bairro": "Cantinho do Céu",
+		"uf":"SP"
+
+	},
+	{
+		"cep": "04843-425",
+		"bairro": "Parque São José",
+		"uf":"SP"
+
+	},
+	{
+		"cep": "08226-021",
+		"bairro": "Cidade Antônio Estevão de Carvalho",
+		"uf":"SP"
+	},
+	{
+		"cep": "04180-112",
+		"bairro": "Jardim Maria Estela",
+		"uf":"SP"
+	}
+]
