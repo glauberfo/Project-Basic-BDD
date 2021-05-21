@@ -61,6 +61,31 @@ public class Steps {
 		
 	}
 
+	@When("So I search for Logradouro")
+	public void soISearchForLogradouro() {
+
+		// write in search box
+		WebElement searchBOX = driver.findElement(By.id("acesso-busca"));
+		searchBOX.sendKeys("Camoes");
+
+		// click in button search
+		WebElement buttonSearch = driver.findElement(By.xpath("//*[@id=\"conteudo-inicial\"]/div/div[2]/div/form[2]/div[2]/button/i"));
+		buttonSearch.click();
+
+		// switch to window
+		List<String> abas = new ArrayList<>(driver.getWindowHandles());
+		driver.switchTo().window(abas.get(1));
+
+		String resultSearch = driver.findElement(By.xpath("//*[@id=\"resultado-DNEC\"]/tbody/tr/td[1]")).getText();
+
+		if(resultSearch.contains("Alabandina")) {
+			assert true ;
+		} else {
+			assert false;
+		}
+
+	}
+
 	@After
 	public void finish() {
 		driver.quit();
