@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="automation1" />
+        <module name="desafio-web-alelo-{Glauber}" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="automation1" target="7" />
+      <module name="desafio-web-alelo-{Glauber}" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

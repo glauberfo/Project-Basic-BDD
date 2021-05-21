@@ -30,14 +30,14 @@ public class Steps {
 	}
 
 	@When("I enter the Correios page")
-	public void IEnterTheGooglePage() throws Throwable {
+	public void IEnterTheCorreiosPage() throws Throwable {
 		
 		// enter in www.google.com.br
 		driver.get("https://www.correios.com.br/");
 	}
 
 	@Then("So I search for CEP")
-	public void SoISearchForHouses() throws Throwable {
+	public void SoISearchForCEP() throws Throwable {
 		
 		// write in search box
 		WebElement searchBOX = driver.findElement(By.id("acesso-busca"));
